@@ -2,7 +2,7 @@ import '../App.css';
 function whatisUML() {
     return (
      <>
-     <div className="whatisUML">
+     <div className="slide">
         <div className="title">
             <h1>Kas ir UML un vai tā ir struktūras vai uzvedības modeļa daļa?</h1>
         </div>

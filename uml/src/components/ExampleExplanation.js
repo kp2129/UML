@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css'; 
 
-function test() {
+function ExampleExplanation() {
   return (
     <div className='slide'>
       <h1 className='slide-title'>Komponentu diagramma UML</h1>
@@ -20,4 +20,4 @@ function test() {
   );
 }
 
-export default test;
+export default ExampleExplanation;
