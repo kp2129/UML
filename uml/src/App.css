@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+:root {
+
+  --clr-1: #052b2f;
+
+  --clr-2: #2e656a;
+
+  --clr-3: #0e4b50;
+
+  --clr-4: #2d8f85;
+
+  --clr-5: #637c54;
+
+}
+
+
+h1{
+  font-weight: bold;
+  color: purple;
+}
+.title{
+  width: 100%;
+  height: 10%;
+}
+.text{
+  height: 90%;
+  width: 50%;
+}
+.whatisUML{
+  height: auto;
+  width: 50%;
+  border: 5px double var(--clr-3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.split{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

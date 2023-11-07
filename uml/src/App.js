@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
-import Slide1 from './components/UMLelemnts'; // Corrected import path
+import Slide1 from './components/whatisUML'; // Corrected import path
 // import Slide2 from './components/Slide2';
 
 const slides = [Slide1]; // Add more slide components as needed
