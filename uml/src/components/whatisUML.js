@@ -4,7 +4,7 @@ function whatisUML() {
      <>
      <div className="slide">
         <div className="title">
-            <h1>Kas ir UML un vai tā ir struktūras vai uzvedības modeļa daļa?</h1>
+        <h1 className='slide-title'>Kas ir UML un vai tā ir struktūras vai uzvedības modeļa daļa?</h1>
         </div>
         <div className="split">
         <div className="text">
