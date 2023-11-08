@@ -3,10 +3,10 @@ import '../App.css';
 
 function UMLelements() {
   return (
-    <div className='slide'>
+    <article  className='slide'>
 
       <div className='inside-slide'>
-        <h1 className='slide-title'>Komponentu diagramma UML</h1>
+      <h1 className='slide-title'>Komponentu diagramma UML</h1>
         <div className='slide-text'>
           <p>
             Komponenšu diagrammā tiek izmantoti dažādi UML elementi, lai attēlotu sistēmas komponentes un to attiecības. Visbiežāk izmantotie UML elementi komponenšu diagrammā ietver:
@@ -37,7 +37,7 @@ function UMLelements() {
         </div>
       </div>
 
-    </div>
+    </article >
   );
 }
 

@@ -1,9 +1,11 @@
+import '../App.css';
+
 function whenUsed() {
     return (
      
-    <div className="slide">
-         <div className="slide">
-      <h1>KAD TO IZMANTO</h1>
+    <article  className="slide">
+
+         <h1 className='slide-title'>KAD TO IZMANTO</h1>
       <p className="content">
         'Programmatūras projektēšana un izstrāde' - Izstrādājot lielas vai sarežģītas programmatūras sistēmas, komponenšu diagrammas palīdz vizualizēt sistēmas struktūru.
       </p>
@@ -19,8 +21,8 @@ function whenUsed() {
       <p className="content">
         'Projektu dokumentācija un komunikācija' - Komponenšu diagrammas ir lielisks veids, kā vizuāli parādīt sistēmas struktūru citiem cilvēkiem, tostarp izstrādātājiem, projektu vadītājiem vai interesentiem.
       </p>
-    </div>
-    </div>
+
+    </article >
      
     );
 

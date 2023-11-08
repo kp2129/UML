@@ -11,7 +11,10 @@ import Slide6 from  './components/task';
 
 
 
-const slides = [Slide , Slide1, Slide2, Slide3,Slide4 , Slide5, Slide6] ; // Add more slide components as needed
+const slides = [Slide , Slide2, Slide3, Slide1, Slide4 , Slide5, Slide6] ; // Add more slide components as needed
+
+
+
 
 
 function App() {
@@ -37,12 +40,12 @@ function App() {
   return (
     <main className="app-container">
       {slides.map((Slide, index) => (
-        <div
+        <article
           key={index}
           className={`slide ${index === currentSlide ? 'active' : ''}`}
         >
           <Slide />
-        </div>
+        </article>
       ))}
     </main>
   );

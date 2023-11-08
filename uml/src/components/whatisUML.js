@@ -1,8 +1,11 @@
+import React from 'react';
 import '../App.css';
+
 function whatisUML() {
+
     return (
      <>
-     <div className="slide">
+     <article  className="slide">
         <div className="title">
         <h1 className='slide-title'>Kas ir UML un vai tā ir struktūras vai uzvedības modeļa daļa?</h1>
         </div>
@@ -16,7 +19,7 @@ function whatisUML() {
             Kopā ir 14 diagrammu tipi, kas iedalās abās šajās kategorijās.</p>
         </div>
         </div>
-     </div>
+     </article >
      
      </>
     );

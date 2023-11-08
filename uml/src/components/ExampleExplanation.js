@@ -3,8 +3,8 @@ import '../App.css';
 
 function ExampleExplanation() {
   return (
-    <div className='slide'>
-    <h1>Komponentu diagramma UML</h1>
+    <article className='slide'>
+     <h1 className='slide-title'>Komponentu diagramma UML</h1>
     <p>Klases UML diagramma ir visizplatītākais diagrammas veids programmatūras dokumentēšanai. 
       Tā kā lielākā daļa programmatūras, kas tiek radīta mūsdienās, joprojām ir balstīta uz objektorientētās programmēšanas paradigmu, 
       klašu diagrammu izmantošana programmatūras dokumentēšanai ir vispareizākais risinājums. Tas notiek tāpēc, ka OOP pamatā ir klases 
@@ -20,7 +20,7 @@ function ExampleExplanation() {
     ukuma, klases darbības/rīcības apakšā. Attiecības starp dažādām 
     klasēm (attēlotas ar savienojošo līniju) veido klašu diagrammu.
     </p>
-  </div>
+  </article >
   );
 }
 
