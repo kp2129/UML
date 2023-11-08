@@ -3,7 +3,7 @@ function task() {
      
     <div className="slide">
          <div className="slide">
-      <h1> Jums ir piešķirts projekts izstrādāt lietojumprogrammu sociālajai tīklam Jums tiek prasīts izveidot komponentes diagrammu kas attēlo lietojumprogrammas galvenās sastāvdaļas un to savstarpējās saites </h1>
+      <h1> Jums ir piešķirts projekts, izstrādāt lietojumprogrammu sociālajam tīklam. Jums tiek prasīts izveidot komponentes diagrammu kas attēlo lietojumprogrammas, galvenās sastāvdaļas un to savstarpējās saites </h1>
       <p className="content">
         1.Izstrādājiet komponentes diagrammu, kurā iekļauti vismaz četri galvenie komponenti, kas veido šo sociālo tīklu lietojumprogrammu.
       </p>
