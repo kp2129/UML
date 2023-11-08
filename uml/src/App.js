@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
-
+import Slide from './components/intro';
 import Slide1 from './components/UMLelemnts'; // Corrected import path
 import Slide2 from './components/whatisUML';
 import Slide3 from './components/whatisUML';
@@ -10,7 +10,7 @@ import Slide5 from './components/BlogDiagram';
 
 
 
-const slides = [Slide1, Slide2, Slide4 , Slide5] ; // Add more slide components as needed
+const slides = [Slide , Slide1, Slide2, Slide4 , Slide5] ; // Add more slide components as needed
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -33,7 +33,7 @@ function App() {
   }, [currentSlide]);
 
   return (
-    <div className="app-container">
+    <main className="app-container">
       {slides.map((Slide, index) => (
         <div
           key={index}
@@ -42,7 +42,7 @@ function App() {
           <Slide />
         </div>
       ))}
-    </div>
+    </main>
   );
 }
 
