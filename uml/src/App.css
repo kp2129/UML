@@ -40,8 +40,11 @@
 }
 
 .slide-title {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
+  background: linear-gradient(to right, #3498db, #e74c3c);
+  -webkit-background-clip: text;
+  color: transparent;
   margin-top: 20px;
 }
 
@@ -60,23 +63,20 @@
   width: 0px;
 }
 
-:root {
+/* :root {
   --clr-1: #052b2f;
   --clr-2: #2e656a;
   --clr-3: #0e4b50;
   --clr-4: #2d8f85;
   --clr-5: #637c54;
-}
+} */
 
 
 p{
   font-weight: bold;
   color: rgb(255, 217, 0)(100, 41, 41);
 }
-h1{
-  font-weight: bold;
-  color: var(--clr-1);
-}
+
 
 .title {
 
@@ -87,16 +87,6 @@ h1{
 .text {
   height: 90%;
   width: 50%;
-}
-
-whatisUML {
-  height: auto;
-  width: 50%;
-  border: 5px double var(--clr-3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .split {

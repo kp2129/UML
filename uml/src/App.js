@@ -9,7 +9,7 @@ import Slide4 from './components/ExampleExplanation';
 import Slide5 from './components/BlogDiagram';
 
 
-const slides = [Slide , Slide1, Slide2, Slide3,Slide4 , Slide5] ; // Add more slide components as needed
+const slides = [Slide , Slide1, Slide2, Slide3, Slide4 , Slide5] ; // Add more slide components as needed
 
 
 function App() {
@@ -35,12 +35,12 @@ function App() {
   return (
     <main className="app-container">
       {slides.map((Slide, index) => (
-        <div
+        <article
           key={index}
           className={`slide ${index === currentSlide ? 'active' : ''}`}
         >
           <Slide />
-        </div>
+        </article>
       ))}
     </main>
   );

@@ -1,10 +1,12 @@
 import '../App.css';
+
 function intro() {
     return (
      <>
-     <div className="slide">
+     <article className="slide">
         <h1 className='slide-title'>Komponentu diagramma</h1>
-     </div>
+        <p>Sintija Kristaps Regnārs</p>
+     </article >
      
      </>
     );
