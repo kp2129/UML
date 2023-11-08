@@ -69,8 +69,17 @@
 }
 
 
+p{
+  font-weight: bold;
+  color: rgb(255, 217, 0)(100, 41, 41);
+}
+h1{
+  font-weight: bold;
+  color: var(--clr-1);
+}
 
 .title {
+
   width: 100%;
   height: 10%;
 }
