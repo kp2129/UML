@@ -97,22 +97,4 @@ whatisUML {
   flex-direction: row;
 }
 
-.component-list {
-  list-style-type: decimal;
-  padding-left: 20px;
-}
 
-.slide-title {
-  font-size: 36px;
-  font-weight: bold;
-  background: linear-gradient(to right, #3498db, #e74c3c);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-
-.slide-image {
-  max-width: 80%;
-  max-height: 40vh;
-  margin-top: 20px;
-}
