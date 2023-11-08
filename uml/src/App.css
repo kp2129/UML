@@ -106,4 +106,6 @@ whatisUML {
   flex-direction: row;
 }
 
-
+p{
+  font-size: 25px;
+}
